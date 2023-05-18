@@ -1,0 +1,49 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root{
+  --primary: #FFC917;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main{
+  padding-bottom: 50px;
+}
+.main-grid{
+  border-radius: 10px;
+  background-color: #fff;
+  min-height: 200px;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1249px;
+  }
+}
+
+.btn-default{
+  background-color: var(--primary);
+  padding: 5px 15px;
+  font-weight: bold;
+}
+.input-default{
+  height: 33px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid grey;
+  text-indent: 0.25rem;
+}
+.card-box{
+  background-color: var(--primary);
+  padding: 11px;
+  border-radius: 5px;
+}
