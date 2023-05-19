@@ -1,4 +1,4 @@
-# Rize_africa_DAO  -- African Economy
+# Rize_africa_DAO
 This project was made using React + Tailwind CSS.
 
 ## Available Scripts
