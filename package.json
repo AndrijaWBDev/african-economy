@@ -18,6 +18,7 @@
     "crypto-browserify": "^3.12.0",
     "fs": "^0.0.1-security",
     "https-browserify": "^1.0.0",
+    "ip": "^1.1.8",
     "node-gyp": "^9.3.1",
     "os": "^0.1.2",
     "os-browserify": "^0.3.0",
